@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/cookie/store
+END
+CookieStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/cookie/store/CookieStore.java
+END
+MemoryCookieStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/cookie/store/MemoryCookieStore.java
+END
+SerializableHttpCookie.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/cookie/store/SerializableHttpCookie.java
+END
+PersistentCookieStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/cookie/store/PersistentCookieStore.java
+END
+HasCookieStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/cookie/store/HasCookieStore.java
+END

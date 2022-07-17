@@ -1,0 +1,79 @@
+8
+
+dir
+14
+https://mm-202108070018:8443/svn/shopping/app
+https://mm-202108070018:8443/svn/shopping
+
+
+
+2022-06-22T11:07:28.496197Z
+14
+summer
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a24611bb-be22-7a4c-9fc0-aed80de1bca7
+
+.gitignore
+file
+
+
+
+
+2022-06-18T03:08:28.674000Z
+7b7747ec045ae606eb720a1222f56098
+2022-06-18T03:05:41.347596Z
+1
+summer
+has-props
+
+build
+dir
+
+build.gradle
+file
+
+
+
+
+2022-06-22T11:06:12.200000Z
+6eaad22180ea3111e2a20f17217e9696
+2022-06-22T11:05:34.516433Z
+11
+summer
+has-props
+
+libs
+dir
+
+proguard-rules.pro
+file
+
+
+
+
+2022-06-18T03:08:28.685000Z
+d50dae5f9d71547ae044fceb9cfc6c4e
+2022-06-18T03:05:41.347596Z
+1
+summer
+has-props
+
+sampledata
+dir
+
+src
+dir
+

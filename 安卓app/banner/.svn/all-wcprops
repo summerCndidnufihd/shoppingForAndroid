@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/shopping/!svn/ver/9/banner
+END
+proguard-rules.pro
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/shopping/!svn/ver/6/banner/proguard-rules.pro
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/shopping/!svn/ver/6/banner/.gitignore
+END
+banner.iml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/shopping/!svn/ver/6/banner/banner.iml
+END
+banner-banner.iml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/shopping/!svn/ver/6/banner/banner-banner.iml
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/shopping/!svn/ver/9/banner/build.gradle
+END

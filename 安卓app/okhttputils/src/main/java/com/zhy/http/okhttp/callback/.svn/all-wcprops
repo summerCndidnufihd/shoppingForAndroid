@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/callback
+END
+IGenericsSerializator.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/callback/IGenericsSerializator.java
+END
+StringCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/callback/StringCallback.java
+END
+Callback.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/callback/Callback.java
+END
+BitmapCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/callback/BitmapCallback.java
+END
+FileCallBack.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/callback/FileCallBack.java
+END
+GenericsCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/callback/GenericsCallback.java
+END

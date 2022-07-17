@@ -1,0 +1,62 @@
+8
+
+dir
+14
+https://mm-202108070018:8443/svn/shopping/okhttputils/src/main/java/com/zhy/http/okhttp
+https://mm-202108070018:8443/svn/shopping
+
+
+
+2022-06-19T14:20:18.248463Z
+6
+summer
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a24611bb-be22-7a4c-9fc0-aed80de1bca7
+
+OkHttpUtils.java
+file
+
+
+
+
+2022-06-20T00:41:18.519000Z
+2ff1a481cfa74b83ca83870e5eb58cc8
+2022-06-19T14:20:18.248463Z
+6
+summer
+has-props
+
+builder
+dir
+
+callback
+dir
+
+cookie
+dir
+
+https
+dir
+
+log
+dir
+
+request
+dir
+
+utils
+dir
+

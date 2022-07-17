@@ -1,0 +1,44 @@
+8
+
+dir
+14
+https://mm-202108070018:8443/svn/shopping/.idea/modules
+https://mm-202108070018:8443/svn/shopping
+
+
+
+2022-06-19T14:20:18.248463Z
+6
+summer
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a24611bb-be22-7a4c-9fc0-aed80de1bca7
+
+app
+dir
+
+shopping.iml
+file
+
+
+
+
+2022-06-18T03:08:05.975000Z
+218b9203df3bcd889ee6ac567f31e86a
+2022-06-18T03:05:41.347596Z
+1
+summer
+has-props
+

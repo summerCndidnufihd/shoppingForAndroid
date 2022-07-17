@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/request
+END
+OtherRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/request/OtherRequest.java
+END
+CountingRequestBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/request/CountingRequestBody.java
+END
+PostStringRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/request/PostStringRequest.java
+END
+RequestCall.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/request/RequestCall.java
+END
+OkHttpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/request/OkHttpRequest.java
+END
+PostFormRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/request/PostFormRequest.java
+END
+GetRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/request/GetRequest.java
+END
+PostFileRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/request/PostFileRequest.java
+END

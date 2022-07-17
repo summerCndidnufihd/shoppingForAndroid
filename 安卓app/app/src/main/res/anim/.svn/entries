@@ -1,0 +1,54 @@
+8
+
+dir
+14
+https://mm-202108070018:8443/svn/shopping/app/src/main/res/anim
+https://mm-202108070018:8443/svn/shopping
+
+
+
+2022-06-18T03:05:41.347596Z
+1
+summer
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a24611bb-be22-7a4c-9fc0-aed80de1bca7
+
+pophidden_anim.xml
+file
+
+
+
+
+2022-06-18T03:08:25.760000Z
+f1657e427f3b4851912adac4845f98ea
+2022-06-18T03:05:41.347596Z
+1
+summer
+has-props
+
+popshow_anim.xml
+file
+
+
+
+
+2022-06-18T03:08:25.764000Z
+90ef74a1c417773d57ca86766ad90439
+2022-06-18T03:05:41.347596Z
+1
+summer
+has-props
+

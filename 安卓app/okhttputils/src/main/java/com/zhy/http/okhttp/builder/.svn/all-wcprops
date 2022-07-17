@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/builder
+END
+OkHttpRequestBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/builder/OkHttpRequestBuilder.java
+END
+PostFileBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/builder/PostFileBuilder.java
+END
+OtherRequestBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/builder/OtherRequestBuilder.java
+END
+HeadBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/builder/HeadBuilder.java
+END
+HasParamsable.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/builder/HasParamsable.java
+END
+PostStringBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/builder/PostStringBuilder.java
+END
+PostFormBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/builder/PostFormBuilder.java
+END
+GetBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/shopping/!svn/ver/6/okhttputils/src/main/java/com/zhy/http/okhttp/builder/GetBuilder.java
+END

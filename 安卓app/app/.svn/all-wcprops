@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/shopping/!svn/ver/14/app
+END
+proguard-rules.pro
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/shopping/!svn/ver/1/app/proguard-rules.pro
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/shopping/!svn/ver/1/app/.gitignore
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/shopping/!svn/ver/11/app/build.gradle
+END

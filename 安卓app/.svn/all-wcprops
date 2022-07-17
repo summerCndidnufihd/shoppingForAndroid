@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/shopping/!svn/ver/14/
+END
+gradlew
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/shopping/!svn/ver/1/gradlew
+END
+settings.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/shopping/!svn/ver/9/settings.gradle
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/shopping/!svn/ver/1/.gitignore
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/shopping/!svn/ver/1/local.properties
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/shopping/!svn/ver/9/build.gradle
+END
+gradlew.bat
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/shopping/!svn/ver/1/gradlew.bat
+END
+gradle.properties
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/shopping/!svn/ver/9/gradle.properties
+END

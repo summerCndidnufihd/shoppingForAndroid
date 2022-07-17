@@ -1,0 +1,86 @@
+{
+    "code": 200,
+    "msg": "请求成功",
+    "result": {
+        "brand_data": false,
+        "catalog_data": false,
+        "is_recommended": "0",
+        "page_data": [
+            {
+                "brand_id": "5",
+                "brief": "现货~尚硅谷有售道具原材料哦~",
+                "channel_id": "5",
+                "cover_price": "65.00",
+                "figure": "/phone/1.jpg",
+                "name": "可减800元24期免息送碎屏宝Huawei/华为 Mate 40 pro 5G手机新款官方旗舰店官网正品mate50直降mate40鸿蒙p50 ",
+                "origin_price": "65.00",
+                "p_catalog_id": "20",
+                "product_id": "3088",
+                "sell_time_end": "1449158400",
+                "sell_time_start": "1448553600",
+                "supplier_code": "0",
+                "supplier_type": "1"
+            },
+            {
+                "brand_id": "5",
+                "brief": "提示：现货，现货，现货噢~一包等于30片噢~~一包等于30片噢~~一包等于30片噢~~ 重要的事情我是会喊三遍的！么么(づ￣3￣)づ╭❤～",
+                "channel_id": "5",
+                "cover_price": "19.80",
+                "figure": "/phone/2.jpg",
+                "name": "可减300元送碎屏宝 小米/Redmi Note10 Pro 5G手机红米note10pro官方旗舰店学生智能官网直降小米手机note11",
+                "origin_price": "19.80",
+                "p_catalog_id": "98",
+                "product_id": "7709",
+                "sell_time_end": "1468166400",
+                "sell_time_start": "1467561600",
+                "supplier_code": "0",
+                "supplier_type": "1"
+            },
+            {
+                "brand_id": "5",
+                "brief": "",
+                "channel_id": "5",
+                "cover_price": "19.00",
+                "figure": "/phone/3.jpg",
+                "name": "苹果12 Apple/苹果 iPhone 12 Pro Max苹果12Pro国行苹果手机正品",
+                "origin_price": "38.00",
+                "p_catalog_id": "18",
+                "product_id": "2573",
+                "sell_time_end": "1447171200",
+                "sell_time_start": "1446566400",
+                "supplier_code": "1607002",
+                "supplier_type": "2"
+            },
+            {
+                "brand_id": "436",
+                "brief": "",
+                "channel_id": "5",
+                "cover_price": "94.50",
+                "figure": "/phone/4.jpg",
+                "name": "顺丰速发赠季卡碎屏保+12期免息】HONOR/荣耀70 Pro 5G智能手机行业首发 天玑8000旗舰芯片 100W超级快充",
+                "origin_price": "109.00",
+                "p_catalog_id": "19",
+                "product_id": "8759",
+                "sell_time_end": "0",
+                "sell_time_start": "1478772000",
+                "supplier_code": "1601009",
+                "supplier_type": "2"
+            },
+            {
+                "brand_id": "5",
+                "brief": "皇冠可变形=&gt; 女皇/皇帝",
+                "channel_id": "5",
+                "cover_price": "35.00",
+                "figure": "/phone/5.jpg",
+                "name": "512G内存5G新品官方正品60pro高清大屏电竞游戏智能手机安卓全网通老年人机旗舰适用于华为荣耀oppo苹果13线",
+                "origin_price": "35.00",
+                "p_catalog_id": "71",
+                "product_id": "594",
+                "sell_time_end": "1439395200",
+                "sell_time_start": "1438790400",
+                "supplier_code": "1101001",
+                "supplier_type": "1"
+            }
+        ]
+    }
+}

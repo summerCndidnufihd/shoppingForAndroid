@@ -1,0 +1,86 @@
+8
+
+dir
+14
+https://mm-202108070018:8443/svn/shopping/banner/src/main/java/com/youth/banner
+https://mm-202108070018:8443/svn/shopping
+
+
+
+2022-06-21T04:10:07.204574Z
+9
+summer
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a24611bb-be22-7a4c-9fc0-aed80de1bca7
+
+Banner.java
+file
+
+
+
+
+2022-06-21T04:11:13.713000Z
+82e4e940a320cfd6ff0b9335813f962c
+2022-06-21T04:10:07.204574Z
+9
+summer
+has-props
+
+BannerConfig.java
+file
+
+
+
+
+2022-06-20T00:41:15.366000Z
+11fd78b750c140639735a2942d902da0
+2022-06-19T14:20:18.248463Z
+6
+summer
+has-props
+
+Transformer.java
+file
+
+
+
+
+2022-06-21T04:11:13.717000Z
+f06eae2a4c692b80e619f911bec0cf39
+2022-06-21T04:10:07.204574Z
+9
+summer
+has-props
+
+ViewPagerScroller.java
+file
+
+
+
+
+2022-06-20T00:41:15.371000Z
+fa27198b7fe74ad38d2440276ea97f09
+2022-06-19T14:20:18.248463Z
+6
+summer
+has-props
+
+listener
+dir
+
+transformer
+dir
+

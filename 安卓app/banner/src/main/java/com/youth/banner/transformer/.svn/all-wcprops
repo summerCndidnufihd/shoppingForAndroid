@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/shopping/!svn/ver/9/banner/src/main/java/com/youth/banner/transformer
+END
+BackgroundToForegroundTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/BackgroundToForegroundTransformer.java
+END
+ForegroundToBackgroundTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/ForegroundToBackgroundTransformer.java
+END
+FlipHorizontalTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/FlipHorizontalTransformer.java
+END
+ABaseTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/shopping/!svn/ver/9/banner/src/main/java/com/youth/banner/transformer/ABaseTransformer.java
+END
+DepthPageTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/DepthPageTransformer.java
+END
+RotateUpTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/RotateUpTransformer.java
+END
+ZoomOutSlideTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/ZoomOutSlideTransformer.java
+END
+ZoomInTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/ZoomInTransformer.java
+END
+CubeOutTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/CubeOutTransformer.java
+END
+CubeInTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/CubeInTransformer.java
+END
+RotateDownTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/RotateDownTransformer.java
+END
+ScaleInOutTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/ScaleInOutTransformer.java
+END
+DefaultTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/DefaultTransformer.java
+END
+ZoomOutTranformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/ZoomOutTranformer.java
+END
+FlipVerticalTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/FlipVerticalTransformer.java
+END
+TabletTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/TabletTransformer.java
+END
+AccordionTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/AccordionTransformer.java
+END
+StackTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/shopping/!svn/ver/6/banner/src/main/java/com/youth/banner/transformer/StackTransformer.java
+END

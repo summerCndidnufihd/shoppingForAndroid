@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="shoppingSvn" default="build" basedir=".">
+
+    <property name="buildnum" value="" />
+
+    <property name="source.dir" value="src" />
+
+    <property name="bin.dir" value="bin" />
+
+    <property name="lib.dir" value="libs">
+
+    </property>
+
+    <property name="classes.dir" value="${bin.dir}" />
+
+    <property name="report.dir" value="report${buildnum}" />
+
+ 
+
+<!--这一部分是指出项目的名称AntDemo；定义某些属性，方便以后调用，比如下次你要调用bin这个目录，那么你就使用${bin.dir}就ok了-->
+
+ 
+
+<target name="clean">
+
+        <delete>
+
+            <fileset dir="${classes.dir}" includes="**/*.class" />
+
+        </delete>
+
+        <delete dir="${classes.dir}" />
+
+        <mkdir dir="${classes.dir}" />
+
+        <mkdir dir="${report.dir}" />
+
+    </target>
+
+<!--这一部分是把bin目录下的文件清除，并且新建两个目录bin和report-->
+
+ 
+
+<target name="compile" depends="clean">
+
+        <!-- local project jars -->
+
+        <patternset id="lib.includes.compile">
+
+            <include name="*.jar" />
+
+        </patternset>
+
+        <fileset dir="${lib.dir}" id="lib.compile">
+
+            <patternset refid="lib.includes.compile" />
+
+        </fileset>
+
+        <pathconvert targetos="windows" property="libs.compile" refid="lib.compile" />
+
+        <!-- compile -->
+
+        <javac srcdir="${source.dir}" destdir="${classes.dir}" classpath="${libs.compile}" includeantruntime="no" includes="**/*.java" debug="true" encoding="UTF-8">
+
+        </javac>
+
+    </target>
+
+<!--编译，依赖于clean-->
+
+ 
+
+<target name="run" depends="compile">
+
+        <junit printsummary="yes" fork="true" haltonfailure="no" showoutput="true">
+
+            <classpath>
+
+                <pathelement location="${classes.dir}" />
+
+                <fileset dir="${lib.dir}" casesensitive="yes">
+
+                    <include name="**/*.jar" />
+
+                </fileset>
+
+            </classpath>
+
+            <formatter type="plain" usefile="false" />
+
+            <formatter type="xml" />
+
+            <sysproperty key="file.encoding" value="UTF-8" />
+
+            <batchtest todir="${report.dir}">
+
+                <fileset dir="${classes.dir}">
+
+                    <include name="test/*.*" />
+
+                    <exclude name="test/TryTest.*" />
+
+                </fileset>
+
+            </batchtest>
+
+        </junit>
+
+    </target>
+
+ 
+
+<!--这一部分主要是调用junit，并且生成xml格式的测试输出文件。这一部分依赖于compile。
+
+batchtest是使用带有通配符的文件集来查找测试类，来进行批处理测试。include是要被执行的测试类，exclude是要被跳过的测试类。-->
+
+ 
+
+    <target name="report" depends="run">
+
+        <junitreport todir="${report.dir}">
+
+            <fileset dir="${report.dir}">
+
+                <include name="TEST-*.xml" />
+
+            </fileset>
+
+            <report format="noframes" todir="${report.dir}" />
+
+        </junitreport>
+
+        <echo message="Finished running tests." />
+
+    </target>
+
+<!--
+<junitreport>标签使用XSTL将XML文件转换成HTML文件。
+
+<include>设置搜寻TEST-*.xml文件，将至转换为HTML文件。
+
+以上一段的作用就是整合report下面的Test-*.xml文件，并且生成无帧的html文件（有两种报告形式：帧frames和无帧moframes。如果报表生成帧配置，为每个类和主报告生成多个文件，将他们连接到通过链接。一个无帧报告由一个单一的文件执行测试的所有结果，无帧的方便些，建议使用）. 这一部分依赖于run-->
+
+ 
+
+       <target name="mail" depends="report">
+
+              <tstamp />
+
+              <mimemail messageMimeType="text/html" messageFile="report/junit-noframes.html" mailhost="mail.xxx.com" user="xxx.com\qa-pub" password="password" mailport="25" subject="antDemo">
+
+                     <from address="qa-pub@xxx.com" />
+
+                     <to address="qiuwy@xxx.com" />
+
+              </mimemail>
+
+       </target>
+	
+<!--checkstyle检查-->
+
+	<taskdef resource = "com/puppycrawl/tools/checkstyle/ant/checkstyle-ant-task.properties" classpath="third/checkstyle-6.17-all.jar"/>
+	<!--程序所在路径,需要创建工程根目录下的third目录-->
+	<target name = "check-style" description =" Generates a report of code convention violations.">
+		<!--调用指定的xml解析规则文件my checks. xml，checkstyle自带，可删减 -->
+		<checkstyle config ="third/my_checks.xml" failureProperty ="checkstyle.failure"
+			classpath= "third/checkstyle-6.17-all.jar" failOnViolation= "false">
+			<!--生成检查结果xml文件到指定目录,Jenkins中的插件也可以使用这个xml结果文件解析
+	为可视化围表-->
+			<formatter type= "xml" tofile= "checkstyle_report.xml" />
+			<fileset dir="${codesrc}" includes="**/*.java" />
+		</checkstyle>
+		<!--通过指定的xsl模版文件生成一份html报告-->
+		<xslt in = "checkstyle_report.xml"
+		out= "checkstyle_report.html" style ="third/checkstyle-author.xls" />
+	</target>
+
+<!--findbugs检查-->
+
+	<property name = "findbugs.dir" location= "third/findbugs-3.0.1" />
+	<!--程序所在路径-->
+	<path id= "findbugs.path">
+		<fileset dir="${findbugs.dir}" includes="**/*.jar" />
+	</path>
+	<taskdef name="findbugs" classname="edu.umd.cs.findbugs.anttask.FindBugsTask"
+		classpathref = "findbugs.path" />
+	<target name = "findbugs" depends = "build-project" description=" 用Findbugs检查代码错误.">
+		<echo> Begin to check bugs in use Findbugs </echo>
+		<findbugs home ="${findbugs.dir}" output = "xml"
+	outputFile="findbugs_report.xml">
+			<!--指定生成的结果文件-->
+			<sourcePath path="${codesrc}" />
+			<!--源代码路径-->
+			<class location="target/classes" />
+			<!-- build - project过程中生成class路
+	径-->
+		</findbugs >
+		<echo> End of check bugs </echo >
+	</target>
+
+
+<!--pmd检查-->
+	<path id= "pmd.classpath">
+		<fileset dir="third/pmd-bin-5.4.2/lib/" includes="**/*.jar"/>
+		<!--程序所在路径-->
+	</path>
+
+
+	<target name ="pmdcheck">
+		<taskdef name="pmd" classname ="net.sourceforge.pmd.ant.PMDTask" classpathref="pmd.classpath" />
+		<pmd rulesetfiles ="third/pmd-javaall.xml" encoding ="UTF-8">
+			<!--指定规则文件pmd- javaall. xml,程序可修改”-->
+			<formatter type="xml" toFile="pmd_report.xml" toconsole="false"/>
+			<fileset dir="${codesrc}" >
+				<!--源代码所在路径,检查Java文件-->
+				<include name="**/*.java"/>
+			</fileset>
+		</pmd>
+	</target>
+	
+</project>

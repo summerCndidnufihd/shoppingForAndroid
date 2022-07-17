@@ -1,0 +1,54 @@
+8
+
+dir
+14
+https://mm-202108070018:8443/svn/shopping/gradle/wrapper
+https://mm-202108070018:8443/svn/shopping
+
+
+
+2022-06-18T03:05:41.347596Z
+1
+summer
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a24611bb-be22-7a4c-9fc0-aed80de1bca7
+
+gradle-wrapper.jar
+file
+
+
+
+
+2022-06-18T03:08:28.759000Z
+0aec41f74dc72512927b0abdbd9d993c
+2022-06-18T03:05:41.347596Z
+1
+summer
+has-props
+
+gradle-wrapper.properties
+file
+
+
+
+
+2022-06-18T03:08:28.764000Z
+0a3dd100f86f1fced4d406544d76c198
+2022-06-18T03:05:41.347596Z
+1
+summer
+has-props
+
