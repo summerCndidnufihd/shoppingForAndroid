@@ -9,15 +9,25 @@
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  服务器资源（图片、JSON文件）需存放在服务器的Tomcat--->webapps--->ROOT下，启动tomcat即可将数据显示在页面。
+2.  导入安卓app注意版本依赖问题。
+3.  图片展示：
+![输入图片说明](imagesimage.png)
+![输入图片说明](imagesimage.png)
+![输入图片说明](imagesimage.png)
+![输入图片说明](imagesimage.png)
+![输入图片说明](imagesimage.png)
+![输入图片说明](imagesimage.png)
+![输入图片说明](imagesimage.png)
+![输入图片说明](imagesimage.png)
+![输入图片说明](imagesimage.png)
+![输入图片说明](imagesimage.png)
+![输入图片说明](imagesimage.png)
+![输入图片说明](imagesimage.png)
 
 #### 参与贡献
 
